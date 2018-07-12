@@ -1,0 +1,36 @@
+html { 
+  margin:0;
+  padding:0;
+  background: url(http://notgoaway.com/wp-content/uploads/2017/07/Galaxy-Wallpaper-68.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+#connexion{
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 350px;
+    height: 350px;
+    margin-left: -175px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-top: -175px; /* Cette valeur doit être la moitié négative de la valeur du height */
+}
+
+#send{
+	margin-left: 150px;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-weight: 900;
+}
+
+p.p1 {
+	text-align: center;
+	color: white;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-weight: 900;
+}

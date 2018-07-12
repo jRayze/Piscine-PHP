@@ -1,0 +1,2 @@
+CREATE DATABASE users CHARACTER SET 'utf8';
+USE users;
