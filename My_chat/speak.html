@@ -5,15 +5,16 @@
 		<title>Chat</title>
 	</head>
 	<body>
-		<h1 id="title">CHAT EN LIGNE de jRayze</h1>
-		<div id="page">
+		<div id ="entete">
 			<div id='deconnexion'>
-				<form action="logout.php">
-					<input type="button" id="button" value="Deconnexion">
-				</form>
-				<br>
+				<h1 id="title">
+					<input type="button" id="button" value="Deconnexion"onClick="document.location.href='speak.php'">
+						CHAT EN LIGNE de jRayze
 				<input type="button" id="acceuil" value="Accueil" onClick="document.location.href='index.html'">
-			</div><br>
+				</h1>
+			</div>
+		</div>
+		<div id="page">
 			<div id='chat'></div>
 			<div id='speak'> <br>
 				<form action="speak.php" method="post">

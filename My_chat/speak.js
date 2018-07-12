@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 	$('#speak').css('text-align','center');
 	
-	$('h1').css('border-style', 'double').css('background', 'black').css('border-radius', '3px').css('border-color', 'black');
+	$('#entete').css('border-style', 'double').css('background', 'black').css('border-radius', '3px').css('border-color', 'black').css('margin', '0px');
 	
 	$("#title").css('text-align', 'center').css('font-family', 'Comic Sans MS, Comic Sans, cursive').css('font-weight','1000').css('color', 'white');
 	
