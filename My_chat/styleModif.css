@@ -11,9 +11,9 @@ html {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	width: 350px;
-    height: 350px;
-    margin-left: -177px; /* Cette valeur doit être la moitié négative de la valeur du width */
+	width: 400px;
+    height: 400px;
+    margin-left: -175px; /* Cette valeur doit être la moitié négative de la valeur du width */
     margin-top: -175px; /* Cette valeur doit être la moitié négative de la valeur du height */
 }
 
@@ -28,7 +28,8 @@ h1{
 	font-weight: 900;
 }
 
-p.p1 {
+p.p2
+{
 	text-align: center;
 	color: white;
 	font-family: Comic Sans MS, Comic Sans, cursive;

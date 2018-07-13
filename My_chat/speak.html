@@ -6,24 +6,24 @@
 	</head>
 	<body>
 		<div id ="entete">
-			<div id='deconnexion'>
-				<h1 id="title">
-					<input type="button" id="button" value="Deconnexion"onClick="document.location.href='speak.php'">
-						CHAT EN LIGNE de jRayze
-				<input type="button" id="acceuil" value="Accueil" onClick="document.location.href='index.html'">
-				</h1>
+			<div id="title">
+				<input type="button" class="txtEntet" id="button" value="Deconnexion"onClick="document.location.href='speak.php'">
+				<input type="button" class="txtEntet" id="acceuil" value="Accueil" onClick="document.location.href='index.html'">
+				<input type="button" class="txtEntet" id="chmdp" value="Changer le mot de passe" onClick="document.location.href='modif.html'">
+				<div id="nameTitle">CHAT EN LIGNE de jRayze</div>
 			</div>
 		</div>
 		<div id="page">
 			<div id='chat'></div>
 			<div id='speak'> <br>
 				<form action="speak.php" method="post">
-					<input type="text" name="msg" value ="" size="100" autocomplete="off">
+					<input type="text" id="msg" name="msg" value ="" size="100" autocomplete="off">
 					<input type="submit" id="submit" name="submit" value="ENVOYER">
 				</form>
 			</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="/scripts/juizDropDownMenu-1.5.min.js"></script>
 		<script src="speak.js"></script>
 		<script src="logout.js"></script>
 	</body>

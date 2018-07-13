@@ -2,7 +2,7 @@
 header('location: speak.html');
 session_start();
 
-if ($_SESSION['loggued_on_user'] == "")
+if ($_SESSION['loggued_on_user'] && $_SESSION['loggued_on_user'] == "")
 {
 	header('location: index.html');
 	return ;
